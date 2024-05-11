@@ -9,6 +9,8 @@ public class CarService {
     @Autowired
     private CarRepository carRepository;
 
+public void wheels(){
 
+}
 
 }
