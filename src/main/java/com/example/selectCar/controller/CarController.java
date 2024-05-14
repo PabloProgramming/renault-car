@@ -16,12 +16,12 @@ public class CarController {
     CarService carService;
 
 
-    @GetMapping
+    @GetMapping ("/{buyerId}")
     private ResponseEntity<CarResponseDto> getCarById(@PathVariable String buyerId){
         return ResponseEntity.ok(carService.getRenaultById(buyerId));
     }
 
-    @PostMapping ("{/your-car}")
+    @PostMapping
     private ResponseEntity<CarResponseDto> saveCar (@RequestBody CarRequestDto carRequestDto){
         return ResponseEntity.ok(carService.saveCar(carRequestDto));
 

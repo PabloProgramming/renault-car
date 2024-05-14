@@ -16,6 +16,9 @@ public class CarMapper {
         renault.setWindows(carRequestDto.getWindows());
         renault.setLeatherSeats(carRequestDto.isLeatherSeats());
         renault.setSatNav(carRequestDto.isSatNav());
+
+
+
         return renault;
     }
 

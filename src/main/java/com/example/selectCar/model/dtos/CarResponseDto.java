@@ -14,7 +14,7 @@ public class CarResponseDto {
     private boolean leatherSeats;
     private String windows;
     private boolean satNav;
-    private int price;
-    private int weight;
+    private double price;
+    private double weight;
 
 }
