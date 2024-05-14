@@ -8,7 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,12 +18,12 @@ public class Car {
     private int lenght;
     private int width;
     private int engine;
-    private int platformWeight;
+    private double platformWeight;
     private String colour;
     private boolean leatherSeats;
     private String windows;
-    private int price;
+    private double price;
     private int basePrice;
-    private int weight;
+    private double weight;
     private boolean satNav;
 }
